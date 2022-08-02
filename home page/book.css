@@ -1,0 +1,148 @@
+@media (max-width: 300px) {
+    .nav {
+      text-align: center;
+      margin-top: 20px;
+      width: auto;
+    }
+  }
+ nav a :hover {
+  color: aqua;
+ }
+  nav a {
+    text-decoration: none;
+    color: #002e5b;
+    font-size: 18px;
+    padding: 25px 35px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+  }
+  header {
+    justify-content: space-between;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    background-color: #c4c4c4;
+    margin-bottom: 30px;
+    height: 80px;
+    padding-left: 1%;
+    width: 100%;
+    position: fixed;
+  }
+  #logo {
+    color: #002e5b;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  .u {
+    text-align: left;
+    height: 234px;
+    width: 100%;
+    background-color: #f5b02e;
+    background-image: -moz-element("p.jpg");
+  }
+  
+  nav a:hover {
+    color: aqua;
+    background-color: #002e5b;
+    color: whitesmoke;
+    transition: all 05s ease 0s;
+  }
+  #logo :hover {
+    background-color: #002e5b;
+    color: whitesmoke;
+    transition: all 05s ease 0s;
+  }
+  *:focus {
+    outline: none;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: #DDD;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display:flex;
+  }
+  
+  .book {
+    position: relative;
+    margin: 5% auto;
+    width: 600px;
+    height: 600px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    display:flex;
+  }
+  
+  .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+  }
+  
+  h1 {
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-bottom: 2px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+  }
+  
+  input[type="submit"] {
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="submit"]:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }
+  
+  input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }

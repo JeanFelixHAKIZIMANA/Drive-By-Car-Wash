@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <title>Drive-By Car-Wash</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Drive-By Wash</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <nav><a href="./home.html"><input type="submit"name="submit" class="send-btn"value="HOME" required></a>
+                <a href="./home.html#blog"><input type="submit"name="submit" class="send-btn"value="SPA's" required></a>
+                <a href="./homepage.html"><input type="submit"name="submit" class="send-btn"value="SERVICES" required></a>
+                <a href="./login.html"><input type="submit"name="submit" class="send-btn"value="SIGN IN" required></a></nav>
+        <header>
+            
+            <h1> <a href="./home.html" id="logo">Drive-By Wash</a> </h1>
+            
+                 
+         
+      </header >
+      
+      <div class="login">
+        <div class="login">
+            <div class="back">
+                
+            </div>
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn"onclick="login()">Loging   In</button>
+                <button type="button" class="toggle-btn"onclick="register()">Register</button>
+            </div>
+        <form  id="login" action="" class="form">
+            <input type="text" name="" class="input-field"placeholder=" name" required>
+            <input type="text" name="" class="input-field"placeholder=" email" required>
+            <input type="password" name="" class="input-field"placeholder="Enter password" required>
+          
+            <select name="user_type" name="" class="input-field" placeholder="field" id="" > User type
+                <option value="user">client</option>
+                <option value="admin">staff member</option>
+                <option value="user">worker</option>
+            </select>
+            <button type="submit" name="login"class="submit-btn"onclick="showalert()">Login</button>
+        </form>    
+        <form id="register" action="" class="form">
+            <input type="text" name="" class="input-field"placeholder="user name" required >
+            <input type="email" name="" class="input-field"placeholder="email" required>
+            <input type="date" name="" class="input-field"placeholder="DD/MM/YY" required>
+            <select name="" id=""class="input-field" placeholder="Gender">Gender
+                
+                <option value="">male</option>
+                <option value="">female</option>
+            </select>
+            <select name="" id=""class="input-field" placeholder="District">district
+                <option value="">Gisagara</option>
+                <option value="">Nyanza</option>
+                <option value="">Huye</option>
+                <option value="">others</option>
+            </select>
+            <select name="user_type" class="input-field" placeholder="field"id="" >User type
+                <option value="user">client</option>
+                <option value="admin">staff member</option>
+                <option value="admin">worker</option>
+            </select>
+            <input type="password" class="input-field"placeholder="Enter password" required>
+            <input type="password" class="input-field"placeholder="Re-enter password" required>  
+            <button type="submit"class="submit-btn"name="regster">Register</button>
+            
+        </form>
+        </div>
+        
+    </div>
+    
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("register");
+        var z=document.getElementById("btn");
+        function register(){
+            x.style.left="-40rem";
+            y.style.left="5rem";
+            z.style.left="7rem"
+        }
+        function login(){
+            x.style.left="5rem";
+            y.style.left="40rem";
+            z.style.left="0"
+        }
+    </script>
+           
+        </div>
+    </body>
+  

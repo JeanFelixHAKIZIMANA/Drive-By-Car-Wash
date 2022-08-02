@@ -1,0 +1,330 @@
+/*header css*/
+@media (max-width: 300px) {
+    .nav {
+      text-align: center;
+      margin-top: 20px;
+      width: auto;
+    }
+  }
+  body{
+    background: url("./Touchless_Car_Wash.jpg") no-repeat center;
+  }
+  nav a {
+    text-decoration: none;
+    color: #002e5b;
+    font-size: 18px;
+    padding: 25px 35px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+  }
+  header {
+    justify-content: space-between;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    background-color: #c4c4c4;
+    margin-bottom: 30px;
+    height: 80px;
+    padding-left: 1%;
+    width: 100%;
+    position: fixed;
+  }
+  #logo {
+    color: #002e5b;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  .u {
+    text-align: left;
+    height: 234px;
+    width: 100%;
+    background-color: #f5b02e;
+    background-image: -moz-element("p.jpg");
+  }
+  
+  nav a:hover {
+    background-color: #002e5b;
+    color: whitesmoke;
+    transition: all 05s ease 0s;
+  }
+  #logo:hover {
+    background-color: #002e5b;
+    color: whitesmoke;
+    transition: all 05s ease 0s;
+  }
+  /*home styling*/
+  .home {
+    display: flex;
+    background: url("./Touchless_Car_Wash.jpg") no-repeat center;
+    height: 100vh;
+    width: 100%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .home .max-width .home-content {
+    color: rgb(214, 233, 233);
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 1px;
+    margin-top: 400px;
+    margin-left: 40px;
+    align-items: left;
+  }
+  .home {
+    height: fit-content;
+    width: 100%;
+    padding: 100px 0px;
+    background-color:rgb(124, 146, 161);
+  }
+  .home-text {
+    width: 550px;
+  }
+  .home img {
+    height: 430px;
+    border-radius: 5%;
+    width: 430px;
+  }
+  .main {
+    width: 1130px;
+    max-width: 95%;
+    margin-left: 10 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .home-text h3 {
+    color: #18243d;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .home-text h5 {
+    color: rgb(25, 32, 65);
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .home-text p {
+    color: rgb(24, 32, 58);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+  button {
+    background-color: #c4c4c4;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: 0.4s;
+    border-radius: 30px;
+  }
+  .botton:hover {
+    background-color: transparent;
+    border: 2px solid rgb(185, 247, 211);
+    cursor: pointer;
+    transition: all 05s ease 0s;
+  }
+  @media screen and (max-width: 850px) {
+    .home {
+      display: flex;
+      flex-direction:inherit;
+    }
+    .main{
+      width:10%;
+      justify-content: center;
+      height:fit-content;
+      margin: 0 auto;
+    }
+  }
+/*blog styling*/
+.blog {
+    width: 100%;
+    background-color: #1f2022;
+  }
+  .container-card {
+    margin-left: 25px;
+  }
+  .container-card-1 {
+    display: flex;
+  }
+  .blog-card img {
+    width: 90%;
+    border-radius: 4%;
+    box-shadow: rgb(255, 255, 255);
+    height: 200px;
+  }
+  .blog-card div {
+    width: 90%;
+    color: rgb(214, 233, 233);
+    margin-top: 15px;
+  }
+  .blog-card h5 {
+    color: rgb(88, 230, 230);
+  }
+  .blog-card {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 3%;
+    border: 1px solid gray;
+    box-shadow: 2px 3px 0px gray;
+  }
+  .container-card-2 {
+    display: flex;
+  }
+  
+  .blog .blog-card {
+    width: 33.3%;
+  }
+  .blog-icon .icon-container {
+    padding-right: 35px;
+  }
+  .blog-icon .icon-container .counts {
+    font-size: 14px;
+  }
+  .blog-icon span i {
+    padding-right: 5px;
+  }
+  /*footer styling*/
+  .footer-dark{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 16px; 
+    height: 220px;
+    width: 100%;
+  }
+
+.footer-dark h3 {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 3rem;
+  }
+  
+  .footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 3rem;
+  }
+  .col-md-6-item-text .p{
+    margin-left: 3rem;
+  }
+  .footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+    
+  }
+  .copyright{
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+    color:rgb(206, 199, 199);
+    margin-left: 20rem;
+    margin-top: 4rem;
+  }
+  .footer-dark {
+    padding: 50px 0;
+    color: rgb(214, 233, 233);
+    background-color: #000;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 57px) {
+    .footer-dark .item:not(.social) {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+  .col-md-6 item text:hover {
+    background-color: rgb(255, 255, 255);
+    color: #1f2022;
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom: 36px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-dark .item.text {
+      margin-bottom: 0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark .item.social {
+    text-align: center;
+  }
+  
+  @media (max-width: 991px) {
+    .footer-dark .item.social {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size: 20px;
+    padding: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-flexbox;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #002e5b;
+    opacity: 0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    color: aqua;
+    opacity: 0.9;
+  }
+  
+  .footer-dark .copyright {
+    color: rgb(214, 233, 233);
+    text-align: center;
+    padding:0%;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .direct-contact-container1 {
+    display: flexbox;
+    align-content: center;
+    justify-content: space-between;
+    color: #c4c4c4;
+  }
+  footer .form-group {
+    background-color: #2a343d;
+    margin-top:.2rem;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: palegoldenrod;
+    resize: none;
+    width: 50%;
+    margin-left: 20rem;
+    height:max-content;
+    color: wheat;
+    padding: 0.7em 1em;
+  }

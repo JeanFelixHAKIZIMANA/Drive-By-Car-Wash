@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <title>login </title>
+    <link rel="stylesheet" href="loginn.css">
+ </head>
+ <body>
+  
+    <div class="login">
+        <div class="back">
+            <a href="../landingpage/landingpage.html"><input type="submit"name="submit" class="send-btn"value="back" required></a>
+        </div>
+    
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn"onclick="login()">Login In</button>
+                <button type="button" class="toggle-btn"onclick="register()">Registration</button>
+            </div>
+        <form  id="login" action="" class="form">
+            <input type="text" name="" class="input-field"placeholder=" name" required>
+            <input type="text" name="" class="input-field"placeholder=" email" required>
+            <input type="password" name="" class="input-field"placeholder="Enter password" required>
+            <input type="checkbox" name="" class="check-box"><span>Remember Password</span>
+            <select name="user_type" name="" class="input-field" placeholder="field" id="" > User type
+                <option value="user">user</option>
+                <option value="admin">admin</option>
+            </select>
+            <button type="submit" name="login"class="submit-btn"onclick="showalert()">Login</button>
+        </form>    
+        <form id="register" action="" class="form">
+            <input type="text" name="" class="input-field"placeholder="user name" required >
+            <input type="text" name="" class="input-field"placeholder="email" required>
+            <input type="date" name="" class="input-field"placeholder="DD/MM/YY" required>
+            <select name="" id=""class="input-field" placeholder="Gender">Gender
+                <option value="">Gender</option>
+                <option value="">male</option>
+                <option value="">female</option>
+                <option value="">others</option>
+            </select>
+            <select name="" id=""class="input-field" placeholder="District">district
+                <option value="">Gasabo</option>
+                <option value="">Kicukiro</option>
+                <option value="">Nyarugenge</option>
+                <option value="">others</option>
+            </select>
+            <select name="" id=""class="input-field" placeholder="field">field
+                <option value="">Diabets</option>
+                <option value="">canser</option>
+                <option value="">hypetension</option>
+                <option value="">others</option>
+            </select>
+            <select name="user_type" class="input-field" placeholder="field"id="" >User type
+                <option value="user">user</option>
+                <option value="admin">admin</option>
+            </select>
+            <input type="email" class="input-field"placeholder="Enter password" required>
+            <input type="email" class="input-field"placeholder="Enter password" required>  
+            <input type="checkbox" class="check-box"><span>I accept to th terms and condition</span>
+            <button type="submit"class="submit-btn"name="regster">REGISTER</button>
+        </form>
+        </div>
+    </div>
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("register");
+        var z=document.getElementById("btn");
+        function register(){
+            x.style.left="-40rem";
+            y.style.left="5rem";
+            z.style.left="7rem"
+        }
+        function login(){
+            x.style.left="5rem";
+            y.style.left="40rem";
+            z.style.left="0"
+        }
+    </script>
+ </body>
+ </html>
